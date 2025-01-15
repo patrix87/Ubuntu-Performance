@@ -1,0 +1,8 @@
+[Unit]
+Description=Set Performance Mode to Performance
+
+[Service]
+ExecStart=/usr/local/sbin/set-performance-mode.sh
+
+[Install]
+WantedBy=multi-user.target
